@@ -35,19 +35,19 @@ p {
 }
 ul,
 ol {
-  margin-top: 0;
+  /* margin-top: 0;
   margin-bottom: 0;
-  margin-left: 0;
+  margin-left: 0; */
 }
 
-/* heder */
+/* /===================* heder *==============================/ */
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-bloc {
   display: flex;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 24px 15px;
   width: 1158px;
 }
 .nav-content {
