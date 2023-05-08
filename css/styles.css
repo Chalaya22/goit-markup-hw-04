@@ -125,10 +125,19 @@ address {
 
 /* в секціях потрібно вказувати тільки падінги */
 .section-first {
-  background-color: var(--accent-background-color);
   padding-top: 188px;
   padding-bottom: 188px;
+  background: rgba(46, 47, 66, 0.7);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/piple_office.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .heder-style {
   font-family: var(--main-font-family);
   font-weight: 700;
