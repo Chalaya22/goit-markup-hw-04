@@ -35,25 +35,29 @@ p {
 }
 ul,
 ol {
-  /* margin-top: 0;
+  margin-top: 0;
   margin-bottom: 0;
-  margin-left: 0; */
+  margin-left: 0;
 }
 
-/* /===================* heder *==============================/ */
+/*================= heder=================== */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-bloc {
   display: flex;
-  margin: 0 auto;
-  padding: 24px 15px;
+}
+.container {
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .nav-content {
   display: flex;
   align-items: center;
-  margin-right: 332px;
+  padding-left: 156px;
 }
 .logo {
   font-family: var(--secondary-font-family);
@@ -91,8 +95,9 @@ ol {
 .list-item:focus {
   color: var(--accent-color-second);
 }
-.menu-address {
-  font-style: normal;
+address {
+  display: flex;
+  margin-left: auto;
 }
 .menu-adress-list {
   display: flex;
@@ -103,6 +108,7 @@ ol {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  font-style: normal;
 
   letter-spacing: 0.02em;
   color: #434455;
@@ -113,14 +119,8 @@ ol {
   color: var(--accent-color-second);
 }
 
-/* section first */
-.container {
-  padding: 0 15px;
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
+/*============================= section first ===========================*/
+
 /* в секціях потрібно вказувати тільки падінги */
 .section-first {
   background-color: var(--accent-background-color);
@@ -168,7 +168,7 @@ ol {
 .button-order-service:focus {
   background-color: var(--accent-color-second);
 }
-/* section-second */
+/*========================== section-second ============================*/
 .heder-section-second {
 }
 .section-second {
@@ -203,7 +203,7 @@ ol {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* section-therd */
+/*============================ section-therd ================================*/
 .section-therd {
   padding-bottom: 120px;
 }
@@ -228,7 +228,7 @@ ol {
 .section-therd-list-item {
   flex-basis: calc((100% - 48px) / 3);
 }
-/* section-four */
+/*================================== section-four============================ */
 .section-four {
   background: #f4f4fd;
   padding-top: 120px;
@@ -284,11 +284,15 @@ ol {
 .employee-desctiption {
   padding: 32px 16px;
 }
-/* footer */
+/* ================================footer =================================*/
 
 .footer {
-  padding: 100px 156px;
+  display: block;
+  padding: 100px 0;
   background: #2e2f42;
+}
+.footer-list {
+  padding-left: 156px;
 }
 .logo-footer {
   font-family: var(--secondary-font-family);
@@ -300,7 +304,7 @@ ol {
   text-transform: uppercase;
 
   color: var(--accent-color);
-  display: flex;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .logo-studio-footer {
@@ -315,7 +319,7 @@ ol {
   max-width: 264px;
   text-align: start;
 }
-/* PORTFOLIO */
+/* =========================PORTFOLIO ===================================*/
 .section-main {
   padding: 96px 0 120px;
 }
