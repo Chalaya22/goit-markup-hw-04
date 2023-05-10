@@ -59,7 +59,6 @@ ol {
 .nav-content {
   display: flex;
   align-items: center;
-  padding-left: 156px;
 }
 .logo {
   font-family: var(--secondary-font-family);
@@ -170,41 +169,55 @@ address {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 48px auto;
 
-  margin-top: 48px;
   /* щоб було посередені  margin: 0 auto; */
-  margin: 0 auto;
 }
 .button-order-service:hover,
 .button-order-service:focus {
   background-color: var(--accent-color-second);
 }
 /*========================== section-second ============================*/
-.heder-section-second {
-}
+
 .section-second {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 .section-second-list {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 24px;
 }
 .section-second-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
   text-align: start;
 }
-.name-of-heder {
+.section-second-box-icon {
+  display: flex;
+  /* вирівнюваня по вертикалі */
+  align-items: center;
+  /* вирівнювання по горизонталі */
+  justify-content: center;
+  /* висота блоку */
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.header-name {
   font-family: var(--main-font-family);
   font-weight: 500;
   font-size: 20px;
+  line-height: 24px;
   line-height: 1.2;
 
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 0;
   margin-bottom: 8px;
 }
+
 .paragraf-section-second {
   font-family: var(--main-font-family);
   font-weight: 400;
@@ -218,7 +231,7 @@ address {
 .section-therd {
   padding-bottom: 120px;
 }
-.heder-section-tretd {
+.heder-section {
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 36px;
@@ -245,36 +258,12 @@ address {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.heder-section-four {
-  font-family: var(--main-font-family);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-
-  margin-bottom: 72px;
-  padding: 0;
-}
 .section-four-list {
   display: flex;
   gap: 24px;
 }
-.heder-name {
-  font-family: var(--main-font-family);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  line-height: 1.2;
-
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-
+.name {
   text-align: center;
-  margin-bottom: 8px;
-  padding: 0;
 }
 .paragraf-section-four {
   font-family: var(--main-font-family);
@@ -376,15 +365,6 @@ address {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-}
-.header-card {
-  font-family: var(--main-font-family);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
 }
 .paragraf-card {
   font-family: var(--main-font-family);
