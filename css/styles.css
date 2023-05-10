@@ -285,7 +285,29 @@ address {
 .employee-desctiption {
   padding: 32px 0;
 }
-.social-madia-icons-list {
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-media-item {
+  width: 40px;
+  height: 40px;
+}
+.social-media-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media-link:hover,
+.social-media-link:focus {
+  background-color: var(--secondary-font-family);
+}
+/* .social-madia-icons-list {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -306,7 +328,7 @@ address {
 .social-madia-icon:hover,
 .social-madia-icon:focus {
   background-color: var(--secondary-font-family);
-}
+} */
 /* ================================footer =================================*/
 
 .footer {
