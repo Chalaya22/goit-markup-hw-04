@@ -305,7 +305,7 @@ address {
 }
 .social-media-link:hover,
 .social-media-link:focus {
-  background-color: var(--secondary-font-family);
+  background-color: var(--accent-color-second);
 }
 /* .social-madia-icons-list {
   display: flex;
