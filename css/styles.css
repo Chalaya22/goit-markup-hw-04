@@ -332,6 +332,40 @@ address {
 .social-madia-icon:focus {
   background-color: var(--secondary-font-family);
 } */
+/* ==============================section-five =============================*/
+.section-five {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-five-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.customers-logo-list {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+.customers-logo-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #8e8f99;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+.customers-logo-link:hover,
+.customers-logo-link:focus {
+  border-color: #404bbf;
+  fill: #404bbf;
+}
+.customers-logo {
+  width: 104px;
+  height: 56px;
+}
 /* ================================footer =================================*/
 
 .footer {
