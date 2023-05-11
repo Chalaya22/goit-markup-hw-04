@@ -307,6 +307,9 @@ address {
 .social-media-link:focus {
   background-color: var(--accent-color-second);
 }
+.social-media-icon {
+  fill: #f4f4fd;
+}
 /* .social-madia-icons-list {
   display: flex;
   justify-content: center;
