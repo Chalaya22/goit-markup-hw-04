@@ -381,6 +381,7 @@ address {
 }
 .footer-list {
   padding-left: 156px;
+  margin-right: 120px;
 }
 .logo-footer {
   font-family: var(--secondary-font-family);
