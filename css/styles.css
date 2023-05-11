@@ -374,6 +374,11 @@ address {
   padding: 100px 0;
   background: #2e2f42;
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
+}
 .footer-list {
   padding-left: 156px;
 }
@@ -401,6 +406,19 @@ address {
   color: #f4f4fd;
   max-width: 264px;
   text-align: start;
+}
+.paragraf-social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-social-media-list {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
 }
 /* =========================PORTFOLIO ===================================*/
 .section-main {
