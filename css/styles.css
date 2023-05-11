@@ -305,11 +305,9 @@ address {
 }
 .social-media-link:hover,
 .social-media-link:focus {
-  background-color: var(--accent-color-second);
+  background-color: #404bbf;
 }
-.social-media-icon {
-  fill: #f4f4fd;
-}
+
 /* .social-madia-icons-list {
   display: flex;
   justify-content: center;
