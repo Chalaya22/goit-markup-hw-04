@@ -353,18 +353,19 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #8e8f99;
+  color: #8e8f99;
   border: 1px solid #8e8f99;
   border-radius: 4px;
 }
 .customers-logo-link:hover,
 .customers-logo-link:focus {
   border-color: #404bbf;
-  fill: #404bbf;
+  color: #404bbf;
 }
 .customers-logo {
   width: 104px;
   height: 56px;
+  fill: currentColor;
 }
 /* ================================footer =================================*/
 
