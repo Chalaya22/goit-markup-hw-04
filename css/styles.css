@@ -102,6 +102,8 @@ address {
 }
 .menu-adress-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 40px;
 }
 .contact-item {
