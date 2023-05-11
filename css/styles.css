@@ -235,7 +235,7 @@ address {
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
 
   text-align: center;
   letter-spacing: 0.02em;
@@ -363,8 +363,8 @@ address {
   color: #404bbf;
 }
 .customers-logo {
-  width: 104px;
-  height: 56px;
+  width: 104;
+  height: 56;
   fill: currentColor;
 }
 /* ================================footer =================================*/
